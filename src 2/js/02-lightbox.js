@@ -24,7 +24,7 @@ function onGallaryClick(e) {
   if (!isGallarySwatchEl) {
     return;
   };
-  modalOpen(e)
+
 }
 
 let gallery = new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: '250'});
